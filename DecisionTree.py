@@ -98,7 +98,6 @@ def getPertinentExamples(examples,attrName,attrValue):
         The new list of examples.
     """
     newExamples = []
-    #YOUR CODE HERE
     for example in examples:
         if example[attrName] == attrValue:
             newExamples.append(example)
